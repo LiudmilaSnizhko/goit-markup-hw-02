@@ -11,7 +11,9 @@
 
     --main-bg-color: #FFFFFF;
     --background-team: #FFFFFF;
-    --color-portfolio-all: #4D5AE5;
+    --color-portfolio: #4D5AE5;
+    --background-portfolio-btn: #F4F4FD;
+    
     /* Others */
 }
 
@@ -37,11 +39,14 @@ text-decoration: none;
 }
 .contact-link:hover,
 .contact-link:focus,
-.hero-button:hover,
-.hero-button:focus,
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+}
+.hero-button:hover,
+.hero-button:focus {
+color: #404bbf;
+background-color: #404BBF
 }
 
 /**
@@ -209,7 +214,10 @@ background: #2E2F42;
 */
 
 .team-section {
-    background: var(--background-team);
+    background-color: #F4F4FD;
+}
+.team-item {
+    background-color: #FFFFFF
 }
 .team-title-our {
     font-weight: 700;
@@ -412,8 +420,8 @@ color: #404bbf;
         align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
-      color: #4D5AE5;
-    background: #F4F4FD;
+      color: var(--color-portfolio);
+    background: var(--background-portfolio-btn);
     font-family: "Roboto", sans-serif;
 }
 
