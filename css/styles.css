@@ -48,6 +48,11 @@ text-decoration: none;
 color: #404bbf;
 background-color: #404BBF
 }
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 
 /**
   |============================
@@ -410,6 +415,7 @@ color: #404bbf;
       color: var(--color-portfolio);
     background: var(--background-portfolio-btn);
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .portfolio-img {}
