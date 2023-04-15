@@ -18,7 +18,7 @@
 
 .body {
     background-color: #FFFFFF;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: #434455;
 
 }
@@ -31,7 +31,9 @@
 .link {
 text-decoration: none;
 }
-
+.list {
+    list-style: none;
+}
 
 /**
   |============================
@@ -273,7 +275,7 @@ background: #2E2F42;
 */
 .body {
     background-color: #FFFFFF;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: #434455;
 }
 
